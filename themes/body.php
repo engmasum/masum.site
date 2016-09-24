@@ -1,0 +1,15 @@
+<?php
+	if($page=="home"){
+		include("themes/homeslider.php");
+	}elseif($page=="about-us"){
+		include("themes/about_us.php");
+	}elseif($page=="services"){
+		include("themes/services_us.php");
+	}elseif($page=="team-members"){
+		include("themes/team_member.php");
+	}elseif($page=="port-folio"){
+		include("themes/portfolio.php");
+	}elseif($page=="contact-us"){
+		include("themes/contact_us.php");
+	}
+?>
